@@ -66,13 +66,27 @@ let b = 5;
 //if size is "L", Price is 200rs
 //if size is "M", Price is 100rs
 //if size is "S", Price is 50rs
-let size = 'L'
-if(size == 'XL') {
-    console.log("price : ", 250);
-} else if (size === 'L') {
-    console.log("price : ", 200);
-} else if (size == 'M') {
-    console.log("price : ",  100);
+// let size = 'L'
+// if(size == 'XL') {
+//     console.log("price is Rs. 250");
+// } else if (size === 'L') {
+//     console.log("price is Rs. 200");
+// } else if (size == 'M') {
+//     console.log("price is Rs. 100");
+// } else {
+//     console.log("price is Rs. 50");
+// }
+
+// Logical Operators
+//&& Logical And
+//|| logical OR
+// ! Logical Not
+
+
+// Practice Qs : A "good String" is a String with the letter 'a' & has a length > 3. Write a Program to find if a string or not.
+let str = "apple";
+if((str[0] == 'a') && (str.length >= 5)) {
+    console.log("good String");
 } else {
-    console.log("price : ", 50);
+    console.log("Bad String");
 }
