@@ -93,17 +93,17 @@ let b = 5;
 
 
 //Switcth Statement
-let color = "red";
+let color = "yellow";
 switch(color) {
     case "red" :
         console.log("Stop");
         break;
     case "yellow" :
-        break;
         console.log("go Slow");
-    case "green" :
         break;
+    case "green" :
         console.log("GO");
+        break;
     default :
         console.log("Broken Light");    
 }
