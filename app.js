@@ -27,3 +27,9 @@ console.log(a++);
 console.log(++a);
 console.log(a--);
 console.log(--a);
+
+//Assigment Operator
+//(=, +=, -=, *=, /=, %=, etc)
+
+//comparison Operators
+//(>, >=, <, <=, ==, !=)
