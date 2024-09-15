@@ -93,17 +93,48 @@ let b = 5;
 
 
 //Switcth Statement
-let color = "yellow";
-switch(color) {
-    case "red" :
-        console.log("Stop");
+// let color = "yellow";
+// switch(color) {
+//     case "red" :
+//         console.log("Stop");
+//         break;
+//     case "yellow" :
+//         console.log("go Slow");
+//         break;
+//     case "green" :
+//         console.log("GO");
+//         break;
+//     default :
+//         console.log("Broken Light");    
+// }
+
+//Practice Qs : Use switch statement to print the day of the week using a number variable 'day' with values 1 to 7
+// 1 = Monday, 2 = Tuesday & so on
+
+let day = 5;
+switch(day) {
+    case 1 : 
+        console.log("Monday");
         break;
-    case "yellow" :
-        console.log("go Slow");
+    case 2 :
+        console.log("Tuesday");
         break;
-    case "green" :
-        console.log("GO");
+    case 3 :
+        console.log("Wednesday");
+        break;
+    case 4 :
+        console.log("Thursday");
+        break;
+    case 5 :
+        console.log("Friday");
+        break;
+    case 6 :
+        console.log("Saturday");
+        break;
+    case 7 :
+        console.log("Sunday");
         break;
     default :
-        console.log("Broken Light");    
+        console.log("Enter Valid number of day.")
+
 }
