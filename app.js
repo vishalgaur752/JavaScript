@@ -84,9 +84,26 @@ let b = 5;
 
 
 // Practice Qs : A "good String" is a String with the letter 'a' & has a length > 3. Write a Program to find if a string or not.
-let str = "apple";
-if((str[0] === 'a') && (str.length > 3)) {
-    console.log("good String");
-} else {
-    console.log("not a good String");
+// let str = "apple";
+// if((str[0] === 'a') && (str.length > 3)) {
+//     console.log("good String");
+// } else {
+//     console.log("not a good String");
+// }
+
+
+//Switcth Statement
+let color = "red";
+switch(color) {
+    case "red" :
+        console.log("Stop");
+        break;
+    case "yellow" :
+        break;
+        console.log("go Slow");
+    case "green" :
+        break;
+        console.log("GO");
+    default :
+        console.log("Broken Light");    
 }
