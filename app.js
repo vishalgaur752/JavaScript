@@ -85,8 +85,8 @@ let b = 5;
 
 // Practice Qs : A "good String" is a String with the letter 'a' & has a length > 3. Write a Program to find if a string or not.
 let str = "apple";
-if((str[0] == 'a') && (str.length >= 5)) {
+if((str[0] === 'a') && (str.length > 3)) {
     console.log("good String");
 } else {
-    console.log("Bad String");
+    console.log("not a good String");
 }
