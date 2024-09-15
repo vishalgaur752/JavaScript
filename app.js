@@ -33,3 +33,12 @@ console.log(--a);
 
 //comparison Operators
 //(>, >=, <, <=, ==, !=)
+//(===) Strickt Comparison
+
+//Comparison for non-numbers
+console.log('a' > 'A');
+console.log('a' > 'b');
+console.log('b' < 'c');
+console.log('B' < 'C');
+console.log('*' < '&');
+//these caharctors have their own unicode and compare unicodes not caharactor's
