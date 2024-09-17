@@ -24,10 +24,26 @@
 //Ques 1 For the giver start state of an array, change it to final form using methods.
 //start = ["jan", "july", "march", "aug"]
 //final = ["july", "june", "march", "aug"]
+// let start = ["jan", "july", "march", "aug"];
+// start.shift();
+// start.shift();
+// start.unshift("june");
+// start.unshift("july");
+// console.log(start);
 
-let start = ["jan", "july", "march", "aug"];
-start.shift();
-start.shift();
-start.unshift("june");
-start.unshift("july");
-console.log(start);
+
+//Cancat : Merge two Arrays
+// let primary = ["red", "yellow", "blue"];
+// let secondary = ["orange", "green", "voilet"];
+// primary = primary.concat(secondary);
+// console.log(primary);
+// console.log(primary.reverse());//reverse an array
+
+
+
+//slice in array
+let colors = ["red", "yellow", "blue", "orange", "pink", "white"];
+console.log(colors.slice());
+console.log(colors.slice(2));
+console.log(colors.slice(2, 3));
+console.log(colors.slice(-2));
