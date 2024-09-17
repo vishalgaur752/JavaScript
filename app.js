@@ -5,7 +5,6 @@
 // let b = 10;
 // console.log(a + b);
 
-
 //template litrals.
 // let pencilprice = 10;
 // let erosorprice = 5;
@@ -82,7 +81,6 @@ let b = 5;
 //|| logical OR
 // ! Logical Not
 
-
 // Practice Qs : A "good String" is a String with the letter 'a' & has a length > 3. Write a Program to find if a string or not.
 // let str = "apple";
 // if((str[0] === 'a') && (str.length > 3)) {
@@ -90,7 +88,6 @@ let b = 5;
 // } else {
 //     console.log("not a good String");
 // }
-
 
 //Switcth Statement
 // let color = "yellow";
@@ -105,36 +102,39 @@ let b = 5;
 //         console.log("GO");
 //         break;
 //     default :
-//         console.log("Broken Light");    
+//         console.log("Broken Light");
 // }
 
 //Practice Qs : Use switch statement to print the day of the week using a number variable 'day' with values 1 to 7
 // 1 = Monday, 2 = Tuesday & so on
 
-let day = 5;
-switch(day) {
-    case 1 : 
-        console.log("Monday");
-        break;
-    case 2 :
-        console.log("Tuesday");
-        break;
-    case 3 :
-        console.log("Wednesday");
-        break;
-    case 4 :
-        console.log("Thursday");
-        break;
-    case 5 :
-        console.log("Friday");
-        break;
-    case 6 :
-        console.log("Saturday");
-        break;
-    case 7 :
-        console.log("Sunday");
-        break;
-    default :
-        console.log("Enter Valid number of day.")
+// let day = 5;
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   case 4:
+//     console.log("Thursday");
+//     break;
+//   case 5:
+//     console.log("Friday");
+//     break;
+//   case 6:
+//     console.log("Saturday");
+//     break;
+//   case 7:
+//     console.log("Sunday");
+//     break;
+//   default:
+//     console.log("Enter Valid number of day.");
+// }
 
-}
+//Alert & Prompt
+// alert("Something is wrong!");
+prompt("entre your name");
