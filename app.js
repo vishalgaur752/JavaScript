@@ -137,4 +137,5 @@ let b = 5;
 
 //Alert & Prompt
 // alert("Something is wrong!");
-prompt("entre your name");
+// prompt("entre your name");
+
