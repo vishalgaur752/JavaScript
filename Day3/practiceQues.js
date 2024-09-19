@@ -33,5 +33,5 @@ let item = 64;
 if(arr.indexOf(item) != -1) {
     console.log("element exists in array");
 } else {
-    console.log("element does'nt exist in array");
+    console.log("element doesn't exist in array");
 }
