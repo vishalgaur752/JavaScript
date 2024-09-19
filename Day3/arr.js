@@ -82,5 +82,5 @@
 // console.log(nums)
 
 //Ques : Create a nested array to show the following tic-tac-toe game state.
-let game = [['X' , '', 'O'], [ '', 'X', ''], ['O', '', 'X']];
-console.log(game);
+// let game = [['X' , '', 'O'], [ '', 'X', ''], ['O', '', 'X']];
+// console.log(game);
