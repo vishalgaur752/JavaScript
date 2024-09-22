@@ -30,9 +30,61 @@
 
 
 //nested loops
-for (let i = 1; i<=3; i++) {
-    console.log(`outer loop ${i}`);
-    for (let j = 1; j<=3; j++) {
-        console.log(j);
-    }
+// for (let i = 1; i<=3; i++) {
+//     console.log(`outer loop ${i}`);
+//     for (let j = 1; j<=3; j++) {
+//         console.log(j);
+//     }
+// }
+
+//while loop 
+// let i = 1;
+// while(i<=5) {
+//     console.log(i);
+//     i++;
+// }
+
+//print the multiplication table of 5
+// let n = prompt("write a number");
+// n = parseInt(n);
+// let i = n;
+// while (i <= n*10) {
+//     console.log(i);
+//     i = i+n;
+// }
+
+//print 0 to 20 number by while loop
+// let i = 0;
+// while(i <= 20) {
+//     console.log(i);
+//     i++;
+// }
+
+//Favorite movie
+// let favMovie = "avator";
+// let guess = prompt("write a movie name");
+// while ((guess != favMovie)&&(guess != 'quit')) {
+//     guess = prompt("wronge gues. plese try again.")
+// }
+// if( guess == favMovie) {
+// console.log("congrats!!");
+// } else {
+//     console.log("it's okk")
+// }
+
+//break keyword
+// let i = 1;
+// while(i<=3){
+//     if(i == 3) {
+//         break;
+//     }
+//     console.log(i);
+//     i++;
+// }
+
+
+// loops with array
+let fruits = ["mango", "apple", "banana", "litchi", "Orange"];
+for(let i = 0; i<fruits.length; i++) {
+    console.log(i, fruits[i]);
 }
