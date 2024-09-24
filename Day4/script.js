@@ -2,7 +2,6 @@
 //     console.log(i);
 // }
 
-
 // print all odd nubers (1 to 15)
 // for(let i = 1; i<=15; i++) {
 //     if(i % 2 != 0) {
@@ -26,8 +25,7 @@
 // n = parseInt(n);
 // for (let i = n; i<=n*10; i =  i+n) {
 //     console.log(i);
-// } 
-
+// }
 
 //nested loops
 // for (let i = 1; i<=3; i++) {
@@ -37,7 +35,7 @@
 //     }
 // }
 
-//while loop 
+//while loop
 // let i = 1;
 // while(i<=5) {
 //     console.log(i);
@@ -82,9 +80,50 @@
 //     i++;
 // }
 
-
 // loops with array
-let fruits = ["mango", "apple", "banana", "litchi", "Orange"];
-for(let i = 0; i<fruits.length; i++) {
-    console.log(i, fruits[i]);
+// let fruits = ["mango", "apple", "banana", "litchi", "Orange"];
+// for(let i = 0; i<fruits.length; i++) {
+//     console.log(i, fruits[i]);
+// }
+
+//loops loops with nesred arrays
+// let heroes = [["ironman", "spiderman", "thor"], ["superman", "wonder woman", "flash"]];
+// for(let i = 0; i<heroes.length; i++) {
+//     console.log(`List #${i}`);
+//     for(let j = 0; j<heroes[i].length; j++) {
+//         console.log(heroes[i][j]);
+//     }
+// }
+
+let student = [
+  ["vishal", 95],
+  ["namrata", 99],
+  ["karan", 90]
+];
+for (let i = 0; i < student.length; i++) {
+  console.log(`student no #${i + 1}`);
+  for (let j = 0; j < student[i].length; j++) {
+    console.log(student[i][j]);
+  }
+}
+
+//check prime number
+let n = prompt("Enter a number");
+n = parseInt(n);
+let isPrime = true;
+if (n == 1) {
+  isPrime = false; // 1 is not a prime
+} else {
+  for (let i = 2; i <= Math.sqrt(n); i++) {
+    if (n % i === 0) {
+      isPrime = false;
+      break;
+    }
+  }
+}
+
+if(isPrime) {
+    console.log(`${n} is a prime number.`);
+} else {
+    console.log(`${n} is not a prime number.`)
 }
